@@ -14,12 +14,11 @@ export default async function NewCourse(){
     }
     return(
         <div>
-            <h1 className="text-white text-center text-4xl">Cadastrar Cursos</h1>
+            <h1 className="text-white text-center text-4xl">Nome do Alunos</h1>
             <form>
-                <input type="text" name="title" placeholder="Digite o texto do cursos"/><br/>
-                <input type="text" name ="description" placeholder="Digite Descrição do curso"/><br/>
-                <input type="text" name ="url" placeholder="Digite a url da imagem"/><br/>
-                <button formAction={saveCourse} className="text-white">SALVAR</button>
+                <input type="text" name="title" placeholder="Digite seu nome"/><br/>
+                <input type="text" name ="description" placeholder="Digite no e-mail"/><br/>              
+                <button formAction={saveCourse} className="text-black">SALVAR</button>
             </form>
         </div>
 

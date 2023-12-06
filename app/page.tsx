@@ -1,5 +1,5 @@
 
-import NewCourse from "./course/new/page";
+import NewCourse from "./admin/course/new/page";
 
 export const revalidate = 0
 export default function Home() {
